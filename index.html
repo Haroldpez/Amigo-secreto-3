@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Corrección aquí -->
+        <title>Juego de amigos secretos</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="caja">
+            <h1>Juego de amigo secreto</h1>
+            <div id="input-section">  <!-- Corregido el nombre del div -->
+                <input type="text" id="name-input" placeholder="Ingresa un nombre">
+                <button id="agregar" onclick="addName()">Agregar Nombre</button>
+            </div>
+            <div id="name-list">
+                <h2>Nombres Ingresados</h2>
+                <ul id="names"></ul>
+            </div>
+            <button onclick="assignSecretFriend()" id="assign-button">Asignar Amigo Secreto</button>
+            <div id="result-section">
+                <h2>Resultados</h2>
+                <ul id="result"></ul>
+            </div>
+            <div>
+                <button id="reset" onclick="resetGame()">Reseteo</button>
+            </div>
+        </div>
+        <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
