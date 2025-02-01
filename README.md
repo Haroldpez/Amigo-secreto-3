@@ -3,13 +3,14 @@ Este es un proyecto sencillo en el que puedes agregar nombres y asignar un "amig
 
 <h1> Funcionalidades </h1>
 
-.Agregar nombres: Puedes ingresar nombres de participantes.
-.Asignar amigo secreto: El sistema asigna un amigo secreto de manera aleatoria a cada participante.
-.Resetear el juego: Limpia la lista de nombres y resultados, reiniciando el juego.
-.Validación: Solo se permiten letras y espacios en los nombres.
+- Agregar nombres: Puedes ingresar nombres de participantes.
+- Asignar amigo secreto: El sistema asigna un amigo secreto de manera aleatoria a cada participante.
+- Resetear el juego: Limpia la lista de nombres y resultados, reiniciando el juego.
+- Validación: Solo se permiten letras y espacios en los nombres.
 
-<h1> Tecnologías utilizadas </h1>Tecnologías utilizadas
-HTML5: Estructura básica del proyecto.
-CSS3: Estilo y diseño del proyecto.
-JavaScript: Funcionalidad del juego, validación de entradas y asignación aleatoria de amigos secretos.
-SweetAlert2: Para mostrar alertas personalizadas al usuario.
+<h1> Tecnologías utilizadas </h1>.
+
+- HTML5: Estructura básica del proyecto.
+- CSS3: Estilo y diseño del proyecto.
+- JavaScript: Funcionalidad del juego, validación de entradas y asignación aleatoria de amigos secretos.
+- SweetAlert2: Para mostrar alertas personalizadas al usuario.
